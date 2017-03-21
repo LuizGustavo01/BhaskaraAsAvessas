@@ -5,15 +5,16 @@ import java.util.Scanner;
 public class BhaskaraAsAvessas {
     
     public static void main(String[] args) {
+        // TESTE
         Scanner lg = new Scanner(System.in);
         
         // Entradas
         System.out.print("x1: ");
-        double x1 = lg.nextDouble();
+        double x1 = Double.parseDouble(lg.nextLine());
         System.out.print("x2: ");
-        double x2 = lg.nextDouble();
+        double x2 = Double.parseDouble(lg.nextLine());
         System.out.print("c: ");
-        double c = lg.nextDouble();
+        double c = Double.parseDouble(lg.nextLine());
         
         // Processamento
         double s = x1 + x2;
